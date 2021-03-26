@@ -1,0 +1,12 @@
+{
+    "dcc":"houdini",
+    "params":[
+        {"name":"outPath", "type":"string", "default":""},
+        {"name":"startFrame", "type":"int", "default":0},
+        {"name":"endFrame", "type":"int", "default":0},
+        {"name":"objects", "type":"array:string", "default":"first second third"}
+    ],
+    "script_path": "./export_abc.py",
+    "entry_point":"run"
+    
+}
